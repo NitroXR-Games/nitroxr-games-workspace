@@ -1,0 +1,28 @@
+# Ignore all subdirectories (each is its own independent git repo)
+/*/
+
+# But keep the scaffolding directories
+!/.github/
+!/.opencode/
+
+# Monorepo tooling (tracked in the root repo)
+!/scripts/
+
+# macOS metadata
+._*
+
+# Generated Trellis API responses (binaries already published to R2; regenerable)
+maze_*.json
+response-*.json
+test-3d.json
+*.failed
+
+# Dependencies
+node_modules/
+
+# Session files
+sessions/
+.sessions/
+package.json
+package-lock.json
+.fuse*

@@ -1,0 +1,5 @@
+# Maze core set: asset_id|prompt. Run: scripts/nvidia-ai.sh --batch scripts/maze-assets.txt --game maze --register
+maze_wall_concrete|low-poly concrete maze wall segment, industrial, game asset, PBR
+maze_floor_tile|dark metallic tile floor, seamless, minimal details, game asset
+maze_goal_portal|sci-fi portal, glowing blue, emissive, 3D game asset
+maze_ghost|transparent ghost enemy, humanoid silhouette, blue glow, game asset
