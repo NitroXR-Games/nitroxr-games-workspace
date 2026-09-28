@@ -11,6 +11,9 @@
 # macOS metadata
 ._*
 
+# Secrets (belt and suspenders: also covered by /*/ above — never commit)
+.credentials/
+
 # Generated Trellis API responses (binaries already published to R2; regenerable)
 maze_*.json
 response-*.json
